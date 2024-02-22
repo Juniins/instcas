@@ -13,6 +13,8 @@
     <link rel="dns-prefetch" href="https://api.vturb.com.br">
     <!-- Fecha Preload-->
 
+
+    
 <!-- Meta Pixel Code -->
 
 <!-- End Meta Pixel Code -->
@@ -88,7 +90,7 @@
 
             <!-- Botão 1 -->
             <div id="cta1" class="mt-4 d-none">
-              <a href="https://pay.hotmart.com/S90999122U?checkoutMode=10" class="a-btn" style="text-decoration: none; max-width: 300px;">
+              <a href="https://pay.hotmart.com/S90999122U?off=jtyws61x&checkoutMode=10" class="a-btn" style="text-decoration: none; max-width: 300px;">
                 <span class="span-btn">I want Instacash!</span>
               </a>
               <br>
@@ -133,6 +135,44 @@
         
     </footer>
 
+
+    <script>
+      let prefix = ["https://payment.hotmart.com", "https://pay.hotmart.com"];
+  
+      function getParams() {
+          let t = "",
+              e = window.top.location.href,
+              r = new URL(e);
+          if (null != r) {
+              let a = r.searchParams.get("utm_source"),
+                  n = r.searchParams.get("utm_medium"),
+                  o = r.searchParams.get("utm_campaign"),
+                  m = r.searchParams.get("utm_term"),
+                  c = r.searchParams.get("utm_content"); 
+              if (-1 !== e.indexOf("?")) {
+                  t = `&sck=${a}|${n}|${o}|${m}|${c}`;
+                  console.log(t);
+              }
+          }
+          return t;
+      }
+  
+      (function() {
+          var t = new URLSearchParams(window.location.search);
+          t.toString() && document.querySelectorAll("a").forEach(function(e) {
+              for (let r = 0; r < prefix.length; r++) {
+                  if (-1 !== e.href.indexOf(prefix[r])) {
+                      if (-1 === e.href.indexOf("?")) {
+                          e.href += "?" + t.toString() + getParams();
+                      } else {
+                          e.href += "&" + t.toString() + getParams();
+                      }
+                  }
+              }
+          });
+      })();
+  </script>
+  
     <script type="text/javascript">
       setTimeout(() => {document.getElementById("cta1").classList.remove("d-none"); document.getElementById("cta2").classList.remove("d-none"); document.getElementById("cta3").classList.remove("d-none"); document.getElementById("faq").classList.remove("d-none"); document.getElementById("garantia").classList.remove("d-none"); document.getElementById("faixa").classList.remove("d-none"); document.getElementById("restopage").classList.remove("d-none"); document.getElementById("alert").classList.remove("d-none")}, 610000); // temporização da Call to Action (em milissegundos)
     </script>
