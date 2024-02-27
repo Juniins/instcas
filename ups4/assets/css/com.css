@@ -1,0 +1,94 @@
+* {
+  font-family: helvetica, arial, sans-serif;
+}
+
+body {
+  background-color: black;
+  font-size: 16px;
+  font-weight: 1;
+  margin: 0px !important;
+}
+
+.faixa {
+  background-color: #ff0000;
+  color: black;
+  padding: 10px;
+}
+
+.faixa h2 {
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  margin: 0px;
+}
+
+i {
+  color: white;
+  font-size: 50px;
+}
+
+.container {
+  padding: 20px 10px 0px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container h2 {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.container-copy ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 0px;
+}
+
+.container-copy li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.container-copy .icon {
+  margin-right: 10px;
+}
+
+.container-copy .icon i {
+  font-size: 24px;
+  color: #00ff00;
+}
+
+.container-copy .text {
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+}
+
+.container-copy {
+  padding: 20px 10px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+}
+
+.container-copy h2 {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.container-copy p {
+  color: white;
+  line-height: 1.8;
+  text-align: center;
+  margin: 0px;
+}
+
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+}
