@@ -12,9 +12,9 @@ let songs = [
     cover: "assets/img/02.webp",
   },
   {
-    name: "Drake",
+    name: "God's Plan",
     path: "assets/songs/gods-plan.mp3",
-    artist: "God's Plan",
+    artist: "Drake",
     cover: "assets/img/03.webp",
   },
 ];

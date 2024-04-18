@@ -20,6 +20,13 @@ const content = document.querySelector(".content");
 const contentVsl = document.querySelector(".content-vsl");
 const headline = document.querySelector(".headline");
 
+//
+//
+// Adiciona evento que escuta o fim da reprodução do áudio
+music.addEventListener("ended", function () {
+  playBtn.classList.add("pause");
+});
+
 // Notificações JS
 // Após exibir a notificação
 
@@ -184,14 +191,14 @@ const updateBalanceSmoothly = (targetValue) => {
 
 //
 //
-playBtn.addEventListener("click", () => {
-  if (playBtn.className.includes("pause")) {
-    music.play();
-  } else {
-    music.pause();
-  }
-  playBtn.classList.toggle("pause");
-});
+// playBtn.addEventListener("click", () => {
+//   if (playBtn.className.includes("pause")) {
+//     music.play();
+//   } else {
+//     music.pause();
+//   }
+//   playBtn.classList.toggle("pause");
+// });
 
 // setup music
 const setMusic = (i) => {
