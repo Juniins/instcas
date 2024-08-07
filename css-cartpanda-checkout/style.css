@@ -19,6 +19,14 @@ body.template-checkout .prdcts_list .prdct-name {
   margin-right: 0px !important;
 }
 
+.prices_row {
+  display: none !important;
+}
+
+.prdcts_list .checkout-product-row .prdct-qty {
+  display: none !important;
+}
+
 #cartx-section-checkout-coupon input,
 body.template-checkout .selectric,
 body.template-checkout .incremental-btn-wrap,
