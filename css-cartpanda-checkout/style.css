@@ -19,12 +19,6 @@ body.template-checkout .prdcts_list .prdct-name {
   margin-right: 0px !important;
 }
 
-@media screen and (max-width: 992px) {
-    .mobile-price-smry:not(.is_sticky) {
-        padding-bottom: 0px!important;
-    }
-}
-
 #cartx-section-checkout-coupon input,
 body.template-checkout .selectric,
 body.template-checkout .incremental-btn-wrap,
@@ -1249,7 +1243,7 @@ body.template-checkout
     padding: 0;
   }
   .mobile-price-smry:not(.is_sticky) [class="col-12"] {
-    margin: 0 0 15px 0 !important;
+    margin: 0 0 0px 0 !important;
     border: 1px solid #d4d4d4;
     border-radius: var(--rb) !important;
     overflow: hidden;
