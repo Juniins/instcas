@@ -19,16 +19,10 @@ body.template-checkout .prdcts_list .prdct-name {
   margin-right: 0px !important;
 }
 
-div#cartx-section-checkout-cost-details.cartx-section.index-section {
-  display: none!important;
-}
-
-.prices_row {
-  display: none !important;
-}
-
-.prdcts_list .checkout-product-row .prdct-qty {
-  display: none !important;
+@media screen and (max-width: 992px) {
+    .mobile-price-smry:not(.is_sticky) {
+        padding-bottom: 0px!important;
+    }
 }
 
 #cartx-section-checkout-coupon input,
