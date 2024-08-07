@@ -19,6 +19,10 @@ body.template-checkout .prdcts_list .prdct-name {
   margin-right: 0px !important;
 }
 
+#cartx-section-checkout-cost-details {
+  display: none;
+}
+
 #cartx-section-checkout-coupon input,
 body.template-checkout .selectric,
 body.template-checkout .incremental-btn-wrap,
