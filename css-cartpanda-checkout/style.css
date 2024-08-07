@@ -20,7 +20,7 @@ body.template-checkout .prdcts_list .prdct-name {
 }
 
 #cartx-section-checkout-cost-details {
-  display: none;
+  display: none !important;
 }
 
 #cartx-section-checkout-coupon input,
