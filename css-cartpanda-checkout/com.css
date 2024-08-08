@@ -192,8 +192,8 @@ html body.template-checkout .row.check-out-row-outr:has(.inner-checkout-left-thr
     box-shadow: 0 0 25px -13px black inset;
     align-items: center;
     justify-content: center;
-    word-break: normal;
-    white-space: normal;
+    word-break: normal!important;
+    white-space: normal!important;
     border-radius: var(--bar_promo_rd);
     position: relative;
     margin-top: 0px !important;
