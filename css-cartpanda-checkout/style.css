@@ -7,12 +7,6 @@ html {overflow: overlay}
     border-radius: 15px;
     background-clip: content-box
 }
-
-    .prdcts_list .checkout-product-row .prdct-qty {
-        display: none!important;
-    }
-
-
 #cartx-section-checkout-coupon input, body.template-checkout .selectric, body.template-checkout .incremental-btn-wrap, .cartpay-page-mobile-summary {border-radius: var(--radiusB) !important;overflow: hidden;}
 
 #checkoutForm input{border-radius: var(--radiusB) !important;}
@@ -179,14 +173,13 @@ html body.template-checkout .row.check-out-row-outr:has(.inner-checkout-left-thr
     white-space: break-spaces;
     border-radius: var(--bar_promo_rd);
     position: relative;
-    margin-top:0px!important
 }
 @media (max-width:768px) {
 .wrapper::before {
     border-radius: 0 0 0 0;
  }  
 }
-/* --> Logo
+/* --> Logo <-- */
 body::before {
     content: '';
     background-image: var(--wart-logo_background_color);
@@ -200,9 +193,6 @@ body::before {
     z-index: 10;
     top: 0
 }
- <-- */
-
-
 .checkout-cont:before {
     content: '';
     background: var(--wart-logo);
