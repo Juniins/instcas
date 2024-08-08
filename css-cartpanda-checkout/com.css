@@ -186,17 +186,17 @@ html body.template-checkout .row.check-out-row-outr:has(.inner-checkout-left-thr
     font-size: var(--bar_promo_txt_size);
     font-weight: 700;
     text-align: center;
-    padding: 10px 0 6px 0;
+    padding: 10px 10px 6px 10px;
     margin: calc(var(--mg_promo) + var(--wart-logo_size)) auto 0;
     color: var(--bar_promo_txt_color);
     box-shadow: 0 0 25px -13px black inset;
     align-items: center;
     justify-content: center;
-    word-break: break-all;
-    white-space: break-spaces;
+    word-break: normal;
+    white-space: normal;
     border-radius: var(--bar_promo_rd);
     position: relative;
-    margin-top: 0px!important;
+    margin-top: 0px !important;
 }
 @media (max-width:768px) {
 .wrapper::before {
