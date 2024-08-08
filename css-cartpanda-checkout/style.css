@@ -19,6 +19,10 @@ body.template-checkout .prdcts_list .prdct-name {
   margin-right: 0px !important;
 }
 
+.prdcts_list .checkout-product-row .prdct-qty {
+  display: none !important;
+}
+
 #cartx-section-checkout-cost-details {
   display: none !important;
 }
@@ -235,7 +239,6 @@ html body.template-checkout .row.check-out-row-outr {
     margin: -10px 0 0 0;
   }
 }
-
 
 /* Borda colorida no cabeÃ§alho */
 /* Para desabilitar coloque 0 em height */
