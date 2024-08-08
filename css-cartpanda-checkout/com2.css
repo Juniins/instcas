@@ -8,6 +8,11 @@
     }
 }
 
+/* Remover bug dos depoimentos duplicados */
+#social_proof_section_checkout-social-proof {
+    display: none!important;
+}
+
 /* Remover bug da barra lateral */
 
 @media screen and (min-width: 992px) {
