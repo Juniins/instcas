@@ -34,6 +34,15 @@ html {
   }
 }
 
+    /* checkout_form_input_border_radiu Shipping method css end */
+    
+    @media screen and (min-width: 992px){
+      body.template-checkout .check-out-left{
+        border-right: 1px solid var(--payment_section_outside_border)!important;
+        background-color: var(--checkout_body);
+        display: none!important;
+      }
+
 @media screen and (max-width: 992px) {
   .mobile-price-smry:not(.is_sticky) {
     padding-bottom: 0px !important;
