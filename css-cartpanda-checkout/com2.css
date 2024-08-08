@@ -8,6 +8,26 @@
     }
 }
 
+#cartx-section-checkout-social-proof {
+    display:none;
+}
+
+#cartx-section-cart-products:before {
+    content: var(--tag_b4);
+    background: var(--tag_b4_bg);
+    display: block;
+    max-width: 100%;
+    padding: 5px 9px;
+    font-size: var(--tag_b4_size);
+    font-weight: 700;
+    text-align: center;
+    color: var(--tag_b4_color);
+    border-radius: var(--rb);
+    margin-bottom: 20px!important;
+}
+
+
+
 #cartx-section-checkout-cost-details {
     padding: 15px 0;
     width: 100% !important;
