@@ -236,64 +236,7 @@ html body.template-checkout .row.check-out-row-outr {
   }
 }
 
-/* --> Faixa promocional <-- */
-.wrapper::before {
-  content: var(--bar_promo);
-  background: var(--bar_promo_bg);
-  background-size: var(--bar_promo_bg_size);
-  display: flex;
-  max-width: var(--bar_promo_wd);
-  min-height: 35px;
-  font-size: var(--bar_promo_txt_size);
-  font-weight: 700;
-  text-align: center;
-  padding: 10px 0 6px 0;
-  margin: 0 0 65px 0px !important;
-  color: var(--bar_promo_txt_color);
-  box-shadow: 0 0 25px -13px black inset;
-  align-items: center;
-  justify-content: center;
-  word-break: break-all;
-  white-space: break-spaces;
-  border-radius: var(--bar_promo_rd);
-  position: relative;
-}
-@media (max-width: 768px) {
-  .wrapper::before {
-    border-radius: 0 0 0 0;
-  }
-}
-/* --> Logo <-- */
-body::before {
-  content: "";
-  background-image: var(--wart-logo_background_color);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  width: 100%;
-  height: var(--wart-logo_size);
-  font-size: 62px;
-  position: fixed;
-  z-index: 10;
-  top: 0;
-}
-.checkout-cont:before {
-  content: "";
-  background: var(--wart-logo);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  background-origin: content-box;
-  position: fixed;
-  display: flex;
-  top: 0;
-  left: 0;
-  z-index: 200;
-  margin: 0 auto;
-  padding: 7px 0;
-  width: 100%;
-  height: var(--wart-logo_size);
-}
+
 /* Borda colorida no cabeÃ§alho */
 /* Para desabilitar coloque 0 em height */
 .template-checkout::after {
