@@ -12,19 +12,6 @@ html {
   background-clip: content-box;
 }
 
-/* #cartx-section-1723080785799 .checkout-inner-social-proof {
-  border-radius: var(--social_proof_border_radius_1723080785799);
-  border: var(--social_proof_border_width_1723080785799) solid var(--social_proof_border_color_1723080785799);
-  margin-top: var(--margin_top_1723080785799);
-  margin-bottom: var(--margin_bottom_1723080785799);
-} */
-@media (min-width: 769px) {
-  .checkout-cont:not(.fixed_container) #cartx-section-checkout_personal_information, .checkout-cont:not(.fixed_container) #cartx-section-checkout_shipping_information, .checkout-cont:not(.fixed_container) #cartx-section-checkout_payment_method, .checkout-cont:not(.fixed_container) .custom-notes-section, .checkout-cont:not(.fixed_container) .paypal-container-left, .checkout-cont:not(.fixed_container) .inner-coupon, .checkout-cont:not(.fixed_container) .check-out-left .social_proof_section, .checkout-cont:not(.fixed_container) .top-info-checkout {
-      box-shadow: 0 0 8px -6px black;
-      display: none!important;
-  }
-}
-
 @media screen and (max-width: 992px) {
   .mobile-price-smry:not(.is_sticky) {
     padding-bottom: 0px !important;
