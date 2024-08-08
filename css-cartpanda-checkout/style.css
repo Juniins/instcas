@@ -179,6 +179,7 @@ html body.template-checkout .row.check-out-row-outr:has(.inner-checkout-left-thr
     white-space: break-spaces;
     border-radius: var(--bar_promo_rd);
     position: relative;
+    margin-top:0px!important
 }
 @media (max-width:768px) {
 .wrapper::before {
