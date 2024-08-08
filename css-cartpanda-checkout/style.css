@@ -9,7 +9,11 @@ html {overflow: overlay}
 }
 
 body::before {
-    display: none;
+    display: none!important;
+}
+
+.checkout-cont:before {
+    display: none!important;
 }
 
 #cartx-section-checkout-coupon input, body.template-checkout .selectric, body.template-checkout .incremental-btn-wrap, .cartpay-page-mobile-summary {border-radius: var(--radiusB) !important;overflow: hidden;}
