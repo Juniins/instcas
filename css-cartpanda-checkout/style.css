@@ -248,7 +248,7 @@ html body.template-checkout .row.check-out-row-outr {
   font-weight: 700;
   text-align: center;
   padding: 10px 0 6px 0;
-  margin: calc(var(--mg_promo) + var(--wart-logo_size)) auto 0;
+  margin-bottom: 65px;
   color: var(--bar_promo_txt_color);
   box-shadow: 0 0 25px -13px black inset;
   align-items: center;
