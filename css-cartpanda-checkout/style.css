@@ -1,4 +1,27 @@
-/* ConfiguraÃ§Ãµes gerais */
+@media screen and (max-width: 1024px) {
+    .prdcts_list .checkout-product-row .prdct-qty {
+        align-items: flex-end;
+        display: none !important;
+        flex-direction: column;
+        justify-content: flex-end;
+        text-align: right;
+    }
+}
+
+#cartx-section-checkout-cost-details {
+    padding: 15px 0;
+    width: 100% !important;
+    display: none !important;
+}
+
+@media screen and (max-width: 992px) {
+    .mobile-price-smry:not(.is_sticky) {
+        padding-bottom: 0px !important;
+    }
+}
+
+
+/* Configurações gerais */
 html {overflow: overlay}
 ::-webkit-scrollbar {width: 10px}
 ::-webkit-scrollbar-thumb {
@@ -40,9 +63,9 @@ span.backcart, .float-label-control label, .float-label-control input:not(.empty
 
 /* Ocultar nome da loja */
 .checkout-header-section .checkout_shop_name {display: none !important}
-/* Ocultar barra de anÃºncio 1 */
+/* Ocultar barra de anúncio 1 */
 .checkout-header-section div.announcement-section:nth-child(1) {display: none}
-/* Ocultar barra de anÃºncio 2 */
+/* Ocultar barra de anúncio 2 */
 .checkout-header-section div.announcement-section:nth-child(2) {display: none}
 
 /* Cor de fundo */
@@ -69,7 +92,7 @@ html body.template-checkout .row.check-out-row-outr {
     margin: 30px 0 0 0 !important;
 }
 
-/* --> RodapÃ© <-- */
+/* --> Rodapé <-- */
 #cartx-section-footer {
     padding: 20px 0;
 }
@@ -173,6 +196,7 @@ html body.template-checkout .row.check-out-row-outr:has(.inner-checkout-left-thr
     white-space: break-spaces;
     border-radius: var(--bar_promo_rd);
     position: relative;
+    margin-top: 0px!important;
 }
 @media (max-width:768px) {
 .wrapper::before {
@@ -191,7 +215,8 @@ body::before {
     font-size: 62px;
     position: fixed;
     z-index: 10;
-    top: 0
+    top: 0;
+    display: none;
 }
 .checkout-cont:before {
     content: '';
@@ -208,9 +233,10 @@ body::before {
     margin: 0 auto;
     padding: 7px 0;
     width: 100%;
-    height: var(--wart-logo_size)
+    height: var(--wart-logo_size);
+    display:none;
 }
-/* Borda colorida no cabeÃ§alho */
+/* Borda colorida no cabeçalho */
 /* Para desabilitar coloque 0 em height */
 .template-checkout::after {
     content: '';
@@ -259,7 +285,7 @@ body.template-checkout .check-out-left {
 .check-out-left::before {display: none}
 /* --> Ocultar Logo <-- */
 .checkout-image-section, .divider-section {display: none}
-/* --> BotÃ£o de finalizar compra <-- */
+/* --> Botão de finalizar compra <-- */
 #complete-payment {min-width: 100%}
 /* --> Ocultar selos e termos da Cartpanda <-- */
 .bottom-form-content-new, .terms-text-payment, .term-text-inner {display:none !important}
@@ -267,7 +293,7 @@ body.template-checkout .check-out-left {
 .inner-coupon .coupon-sect {
     padding: 0 !important;
 }
-/* --> SeÃ§Ã£o Motivacional <-- */
+/* --> Seção Motivacional <-- */
 .motivator-inner span {
     background: var(--wart-geral-color) !important;
     margin:  0 0 15px;
@@ -997,8 +1023,8 @@ body .prices_row.total-price .col-sm-12 span {
 .col-ipad-12.col-xs-12.col-md-5.check-out-right.on-desk::after {display:none !important}
 
 /* 
-CÃ³digo exclusivo WART
+Código exclusivo WART
 By: Walyson Patric
 Site: https://warts.com.br/
-VersÃ£o 1 | Cartpanda
+Versão 1 | Cartpanda
 */
