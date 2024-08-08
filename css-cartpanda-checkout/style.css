@@ -19,29 +19,11 @@ html {
   margin-bottom: var(--margin_bottom_1723080785799);
 } */
 @media (min-width: 769px) {
-  .checkout-cont:not(.fixed_container)
-    #cartx-section-checkout_personal_information,
-  .checkout-cont:not(.fixed_container)
-    #cartx-section-checkout_shipping_information,
-  .checkout-cont:not(.fixed_container) #cartx-section-checkout_payment_method,
-  .checkout-cont:not(.fixed_container) .custom-notes-section,
-  .checkout-cont:not(.fixed_container) .paypal-container-left,
-  .checkout-cont:not(.fixed_container) .inner-coupon,
-  .checkout-cont:not(.fixed_container) .check-out-left .social_proof_section,
-  .checkout-cont:not(.fixed_container) .top-info-checkout {
-    box-shadow: 0 0 8px -6px black;
-    display: none !important;
+  .checkout-cont:not(.fixed_container) #cartx-section-checkout_personal_information, .checkout-cont:not(.fixed_container) #cartx-section-checkout_shipping_information, .checkout-cont:not(.fixed_container) #cartx-section-checkout_payment_method, .checkout-cont:not(.fixed_container) .custom-notes-section, .checkout-cont:not(.fixed_container) .paypal-container-left, .checkout-cont:not(.fixed_container) .inner-coupon, .checkout-cont:not(.fixed_container) .check-out-left .social_proof_section, .checkout-cont:not(.fixed_container) .top-info-checkout {
+      box-shadow: 0 0 8px -6px black;
+      display: none!important;
   }
 }
-
-    /* checkout_form_input_border_radiu Shipping method css end */
-    
-    @media screen and (min-width: 992px){
-      body.template-checkout .check-out-left{
-        border-right: 1px solid var(--payment_section_outside_border)!important;
-        background-color: var(--checkout_body);
-        display: none!important;
-      }
 
 @media screen and (max-width: 992px) {
   .mobile-price-smry:not(.is_sticky) {
