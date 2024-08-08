@@ -8,9 +8,6 @@ html {overflow: overlay}
     background-clip: content-box
 }
 
-body::before {
-    display: none!important;
-}
 
 
 
