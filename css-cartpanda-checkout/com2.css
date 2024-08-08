@@ -8,6 +8,23 @@
     }
 }
 
+/* Remover bug da barra lateral */
+
+@media screen and (min-width: 992px) {
+    .checkout-cont::after {
+        background: var(--order_summery_background);
+        width: 10000000px;
+        display: none!important;
+        position: absolute;
+        overflow: hidden;
+        height: 100%;
+        content: '';
+        left: 100%;
+        top: 0;
+        z-index: 0;
+    }
+}
+
 #cartx-section-checkout-social-proof {
     display:none;
 }
