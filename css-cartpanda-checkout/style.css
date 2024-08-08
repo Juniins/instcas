@@ -12,6 +12,12 @@ html {
   background-clip: content-box;
 }
 
+@media screen and (max-width: 992px) {
+  .mobile-price-smry:not(.is_sticky) {
+    padding-bottom: 0px !important;
+  }
+}
+
 body.template-checkout .prdcts_list .prdct-name {
   width: calc(100% - 185px);
   margin-left: 15px;
