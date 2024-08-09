@@ -373,8 +373,11 @@ body.template-checkout .check-out-left {
 .checkout-image-section, .divider-section {display: none}
 /* --> Botão de finalizar compra <-- */
 #complete-payment {min-width: 100%}
-/* --> Ocultar selos e termos da Cartpanda <-- */
+/* --> Ocultar selos e termos da Cartpanda 
 .bottom-form-content-new, .terms-text-payment, .term-text-inner {display:none !important}
+<-- */
+
+
 /* --> Cupom de desconto <-- */
 .inner-coupon .coupon-sect {
     padding: 0 !important;
