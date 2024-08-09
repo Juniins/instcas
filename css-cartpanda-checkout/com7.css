@@ -8,6 +8,20 @@
     }
 }
 
+/* Arredondar Capa do produto */
+@media screen and (max-width: 1024px) {
+    .prdcts_list .checkout-product-row .prdct-thumb img {
+        border-radius: 10px!important;
+    }
+}
+
+/* Arredondar bordas do Banner */
+.logo img {
+    max-width: 100%;
+    object-fit: contain;
+    border-radius: 8px!important;
+}
+
 /* Remover bug dos depoimentos duplicados */
 #social_proof_section_checkout-social-proof {
     display: none!important;
