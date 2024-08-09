@@ -8,6 +8,13 @@
     }
 }
 
+/* Ocultar seletor de quantidade */
+#cartx-section-checkout-coupon input, body.template-checkout .selectric, body.template-checkout .incremental-btn-wrap, .cartpay-page-mobile-summary {
+    border-radius: var(--radiusB) !important;
+    overflow: hidden;
+    display: none!important;
+}
+
 /* Remover bug dos depoimentos duplicados */
 #social_proof_section_checkout-social-proof {
     display: none!important;
