@@ -1,4 +1,14 @@
-
+/* Ocultar preço da lateral
+@media screen and (max-width: 1024px) {
+    .prdcts_list .checkout-product-row .prdct-qty {
+        align-items: flex-end;
+        display: none !important;
+        flex-direction: column;
+        justify-content: flex-end;
+        text-align: right;
+    }
+}
+ */
 
 /* Arredondar Capa do produto */
 @media screen and (max-width: 1024px) {
