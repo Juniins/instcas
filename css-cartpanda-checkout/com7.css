@@ -10,6 +10,14 @@
 }
  */
 
+/* Espaçamento do texto */
+body.template-checkout .prdcts_list .prdct-name {
+    width: calc(100% - 185px);
+    margin-left: 15px;
+    padding-left: 0 !important;
+    margin-right: 0px !important;
+}
+
 /* Arredondar Capa do produto */
 @media screen and (max-width: 1024px) {
     .prdcts_list .checkout-product-row .prdct-thumb img {
