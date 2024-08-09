@@ -201,19 +201,7 @@ html body.template-checkout .row.check-out-row-outr {
     justify-content: center;
     box-shadow: 0px 23px 20px -14px var(--wart-geral-color);
 }
-#cartx-section-footer::before {
-    content: '';
-    background: var(--selo), var(--cards);
-    background-size: var(--selo_size),var(--cards_size);
-    background-repeat: no-repeat;
-    background-position: top, center 3.1vh, bottom;
-    display: block;
-    position: relative;
-    width: 100%;
-    height: 9vh;
-    margin: 20px 0;
-    order: 1
-}
+
 #cartx-section-footer::after {
     content: var(--txtfooter);
     display: block;
@@ -243,18 +231,19 @@ html body.template-checkout .row.check-out-row-outr:has(.inner-checkout-left-thr
 }
 #cartx-section-footer::before {
     content: '';
-    background: var(--selo), var(--mcards);
-    background-size: var(--mselo_size),var(--mcards_size);
+    background: var(--selo), var(--cards);
+    background-size: var(--selo_size),var(--cards_size);
     background-repeat: no-repeat;
-    background-position: top, center 4.1vh, bottom;
+    background-position: top, center 3.1vh, bottom;
     display: block;
     position: relative;
-    padding: 7vh 0;
     width: 100%;
-    height: 100px;
-    margin: 0 0 20px 0;
-    order: 1
-} 
+    height: 9vh;
+    margin: 20px 0;
+    order: 1;
+    display: none!important;
+}
+    
 #cartx-section-footer::after {
     content: var(--mtxtfooter);
     margin: -10px 0 0 0;
