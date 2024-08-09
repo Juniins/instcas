@@ -9,6 +9,12 @@
     }
 }
  */
+/* Estilo do preço */
+.check-out-right .nett-price, .check-out-right .product-price-mobile .bolderFont {
+    font-family: var(--body_base_family) !important;
+    font-weight: 600 !important;
+    color: #00a016;
+}
 
 /* Espaçamento do texto */
 body.template-checkout .prdcts_list .prdct-name {
