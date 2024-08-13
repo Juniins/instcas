@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <script
+      src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+      async
+      defer
+    ></script>
+    <div class="ads1-point" id="start"></div>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha384-eTuL1xBGxJ6v4QFJOzY4TwK1Tpf5pDm5G1Wefw2QHQYfJjS6VwUZ7jBZWQVjM1N0"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+
+      .boxsaldo b {
+        transition: transform 0.5s ease-in-out;
+      }
+    </style>
+
+    <link rel="stylesheet" href="style.css" />
+    <title>You Were Selected</title>
+  </head>
+  <body>
+    <!-- Abre notificações -->
+    <audio id="salesound" src="./assets/songs/cash-register.mp3"></audio>
+
+    <div id="notificationContainer">
+      <div id="notificationWrapper">
+        <!-- As notificações aparecerão aqui -->
+      </div>
+    </div>
+    <img
+      id="checkIcon"
+      src="./assets/img/ck2.png"
+      class="check-icon"
+      alt="Check Icon"
+      style="display: none"
+    />
+
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="fv/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha384-eTuL1xBGxJ6v4QFJOzY4TwK1Tpf5pDm5G1Wefw2QHQYfJjS6VwUZ7jBZWQVjM1N0"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Tag Manager -->
+
+    <!-- End Google Tag Manager (noscript) -->
+    <div class="header">
+      <img
+        src="./assets/img/ic-logo.jpeg"
+        width="100px"
+        height="auto"
+        alt=""
+        style="padding-top: 5px"
+      />
+      <div class="boxsaldo">Balance: <b>$33.82</b></div>
+      <img src="./assets/img/chat.jpg" width="80px" height="auto" alt="" />
+    </div>
+
+    <div class="navbar" style="height: 50px">
+      <div id="inicio" class="nav-item">
+        <img src="./assets/img/icons/home.png" width="22px" alt="" />
+      </div>
+      <div id="shorts" class="nav-item">
+        <img src="./assets/img/icons/lupa.png" width="22px" alt="" />
+      </div>
+      <div class="nav-item" id="subs">
+        <img src="./assets/img/icons/more.png" width="22px" alt="" />
+      </div>
+      <div style="margin-right: 5%" class="nav-item" id="lib">
+        <img src="./assets/img/icons/vid.png" width="22px" alt="" />
+      </div>
+    </div>
+
+    <div class="container">
+      <div
+        class="aviso"
+        style="
+          background-color: #000000;
+          padding: 25px 20px;
+          margin: 0px 10px;
+          border: solid 1px rgba(255, 255, 255, 0.5);
+        "
+      >
+        <!-- Conteúdo do aviso 1 -->
+        <div class="content-w1">
+          <h1>
+            Try this Instagram partner app and get paid for liking photos!
+          </h1>
+          <br />
+          <p style="margin-left: 5px; margin-bottom: 5px; font-size: 16px">
+            Like the photos below and get paid. There are a few free licenses
+            left.
+          </p>
+          <br /><br />
+          <center>
+            <p
+              style="
+                margin-left: 5px;
+                margin-bottom: 5px;
+                font-size: 18px;
+                color: #1094e4;
+              "
+            >
+              <b>Click start now! You've already won $33.82</b>
+            </p>
+          </center>
+
+          <br />
+          <center>
+            <a id="btnStartNow" class="btn-init">Start Now</a>
+          </center>
+        </div>
+
+        <!-- Conteúdo do aviso 2 -->
+
+        <div class="content-w2" style="display: none; flex-direction: column">
+          <br />
+          <h1 style="text-align: center">Your balance is now</h1>
+
+          <center>
+            <div class="balance-final">
+              <h1
+                id="balance-value"
+                style="text-align: center; color: white; font-size: 40px"
+              >
+                $33,00
+              </h1>
+            </div>
+          </center>
+
+          <h2
+            style="
+              text-align: center;
+              margin-bottom: 0px;
+              margin-top: 36px;
+              color: #1094e4;
+            "
+          >
+            Congratulations!
+          </h2>
+
+          <br />
+          <center>
+            <p
+              style="
+                margin-left: 5px;
+                margin-bottom: 5px;
+                margin-top: 0px;
+                font-size: 18px;
+              "
+            >
+              To make your withdrawal, watch a <b>4-minute video</b>
+            </p>
+          </center>
+
+          <br />
+          <center>
+            <a href="https://rateformoney.com" class="btn-cta">Watch video</a>
+          </center>
+        </div>
+      </div>
+
+      <div class="ads1-point" id="ads1"></div>
+    </div>
+
+    <section class="content">
+      <!-- Anúncio 1 | Ads1 -->
+      <div
+        class="container-ads"
+        id="ads-container"
+        style="margin-bottom: 100px"
+      >
+        <div class="aviso">
+          <div class="aviso">
+            <div class="ad-video">
+              <center>
+                <div
+                  style="
+                    position: relative;
+                    padding-bottom: 65px;
+                    width: 100%;
+                    height: 0;
+                  "
+                >
+                  <div
+                    class="fotoetext"
+                    style="
+                      display: flex;
+                      align-items: center;
+                      margin-bottom: 10px;
+                    "
+                  >
+                    <div
+                      class="circle-img"
+                      style="
+                        width: fit-content;
+                        padding: 2px;
+                        border-radius: 100%;
+                        background: radial-gradient(
+                          circle at 30% 107%,
+                          #fdf497 0%,
+                          #fdf497 10%,
+                          #fd5949 45%,
+                          #d6249f 60%
+                        );
+                      "
+                    >
+                      <div
+                        class="divimg"
+                        style="
+                          width: 40px;
+                          height: 40px;
+                          border-radius: 100%;
+                          overflow: hidden;
+                          border: solid 2px black;
+                        "
+                      >
+                        <img
+                          src="./assets/img/perfil1.jpeg"
+                          alt=""
+                          width="100%"
+                        />
+                      </div>
+                    </div>
+                    <div class="descad">
+                      <h4 style="margin-left: 8px">
+                        daniwashington_
+                        <svg
+                          viewBox="0 0 18 18"
+                          height="12"
+                          width="12"
+                          preserveAspectRatio="xMidYMid meet"
+                          version="1.1"
+                          x="0px"
+                          y="0px"
+                          enable-background="new 0 0 18 18"
+                          xml:space="preserve"
+                        >
+                          <polygon
+                            id="Star-2"
+                            fill="#0099FD"
+                            points="9,16 7.1,16.9 5.8,15.2 3.7,15.1 3.4,13 1.5,12 2.2,9.9 1.1,8.2 2.6,6.7 2.4,4.6 4.5,4 5.3,2 7.4,2.4 9,1.1 10.7,2.4 12.7,2 13.6,4 15.6,4.6 15.5,6.7 17,8.2 15.9,9.9 16.5,12 14.7,13 14.3,15.1 12.2,15.2 10.9,16.9 "
+                          ></polygon>
+                          <polygon
+                            id="Check-Icon"
+                            fill="#FFFFFF"
+                            points="13.1,7.3 12.2,6.5 8.1,10.6 5.9,8.5 5,9.4 8,12.4 "
+                          ></polygon>
+                        </svg>
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+                <img
+                  src="./assets/img/feed1.jpeg"
+                  width="100%"
+                  style="position: relative; width: 100%; height: 370px"
+                />
+              </center>
+            </div>
+            <div class="info-likes">❤ 2.2K likes</div>
+          </div>
+
+          <div class="likes">
+            <a class="btn-dislike" id="l1"> I didn't liked</a>
+            <a class="btn-like" id="d1">
+              <i class="fas fa-heart"></i>
+              Like</a
+            >
+          </div>
+          <div class="ads1-point" id="scroll2"></div>
+        </div>
+      </div>
+
+      <div class="ads1-point" id="ads2">
+        <!-- Anúncio 3 | Ads3 -->
+        <div class="container-ads" id="ads-container">
+          <div class="aviso">
+            <div class="aviso">
+              <div class="ad-video">
+                <center>
+                  <div
+                    style="
+                      position: relative;
+                      padding-bottom: 65px;
+                      width: 100%;
+                      height: 0;
+                    "
+                  >
+                    <div
+                      class="fotoetext"
+                      style="
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 10px;
+                      "
+                    >
+                      <div
+                        class="circle-img"
+                        style="
+                          width: fit-content;
+                          padding: 2px;
+                          border-radius: 100%;
+                          background: radial-gradient(
+                            circle at 30% 107%,
+                            #fdf497 0%,
+                            #fdf497 10%,
+                            #fd5949 45%,
+                            #d6249f 60%
+                          );
+                        "
+                      >
+                        <div
+                          class="divimg"
+                          style="
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 100%;
+                            overflow: hidden;
+                            border: solid 2px black;
+                          "
+                        >
+                          <img
+                            src="./assets/img/perfil2.jpeg"
+                            alt=""
+                            width="100%"
+                          />
+                        </div>
+                      </div>
+                      <div class="descad">
+                        <h4 style="margin-left: 8px">
+                          Mel Maia
+                          <svg
+                            viewBox="0 0 18 18"
+                            height="12"
+                            width="12"
+                            preserveAspectRatio="xMidYMid meet"
+                            version="1.1"
+                            x="0px"
+                            y="0px"
+                            enable-background="new 0 0 18 18"
+                            xml:space="preserve"
+                          >
+                            <polygon
+                              id="Star-2"
+                              fill="#0099FD"
+                              points="9,16 7.1,16.9 5.8,15.2 3.7,15.1 3.4,13 1.5,12 2.2,9.9 1.1,8.2 2.6,6.7 2.4,4.6 4.5,4 5.3,2 7.4,2.4 9,1.1 10.7,2.4 12.7,2 13.6,4 15.6,4.6 15.5,6.7 17,8.2 15.9,9.9 16.5,12 14.7,13 14.3,15.1 12.2,15.2 10.9,16.9 "
+                            ></polygon>
+                            <polygon
+                              id="Check-Icon"
+                              fill="#FFFFFF"
+                              points="13.1,7.3 12.2,6.5 8.1,10.6 5.9,8.5 5,9.4 8,12.4 "
+                            ></polygon>
+                          </svg>
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="img-feed2">
+                    <img
+                      src="./assets/img/feed2.jpg"
+                      width="100%"
+                      style="
+                        position: relative;
+                        object-fit: cover;
+                        height: 350px;
+                      "
+                    />
+                  </div>
+                </center>
+              </div>
+            </div>
+          </div>
+          <div class="info-likes">❤ 1.5K likes</div>
+
+          <div class="likes">
+            <a class="btn-dislike" id="l3"> I didn't liked</a>
+            <a class="btn-like" id="d3"><i class="fas fa-heart"></i> Like</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br /><br /><br /><br /><br /><br />
+
+    <script>
+      let prefix = ["#UTM"];
+
+      function getParams() {
+        let t = "",
+          e = window.top.location.href,
+          r = new URL(e);
+        if (null != r) {
+          let a = r.searchParams.get("utm_source"),
+            n = r.searchParams.get("utm_medium"),
+            o = r.searchParams.get("utm_campaign"),
+            m = r.searchParams.get("utm_term"),
+            c = r.searchParams.get("utm_content");
+          -1 !== e.indexOf("?") && (t = `&sck=${a}|${n}|${o}|${m}|${c}`),
+            console.log(t);
+        }
+        return t;
+      }
+      !(function () {
+        var t = new URLSearchParams(window.location.search);
+        t.toString() &&
+          document.querySelectorAll("a").forEach(function (e) {
+            for (let r = 0; r < prefix.length; r++)
+              -1 !== e.href.indexOf(prefix[r]) &&
+                (-1 === e.href.indexOf("?")
+                  ? (e.href += "?" + t.toString() + getParams())
+                  : (e.href += "&" + t.toString() + getParams()));
+          });
+      })();
+    </script>
+
+    <!-- Função Botão start -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const btnInit = document.querySelector(".btn-init");
+        const adsContainer = document.getElementById("ads1");
+        const balanceElement = document.querySelector(".boxsaldo b");
+
+        btnInit.addEventListener("click", function (event) {
+          event.preventDefault();
+          adsContainer.scrollIntoView({ behavior: "smooth" });
+
+          const balanceText = balanceElement.textContent;
+          const currentBalance = parseFloat(balanceText.replace("$", ""));
+
+          // Verificar se o saldo é menor que $2.90 antes de adicionar $19.27
+          if (currentBalance < 2.9) {
+            const newBalance = currentBalance + 33.82;
+            animateValue(balanceElement, currentBalance, newBalance, 1000);
+            showNotification("Thank you for participating! You won $33.82!");
+            saleSound.play();
+          }
+        });
+
+        function animateValue(element, start, end, duration) {
+          const range = end - start;
+          const startTime = new Date().getTime();
+          const endTime = startTime + duration;
+
+          function updateValue() {
+            const currentTime = new Date().getTime();
+            const elapsed = currentTime - startTime;
+            const progress = Math.min(elapsed / duration, 1);
+            const newValue = start + range * progress;
+            element.textContent = "$" + newValue.toFixed(2);
+
+            if (progress < 1) {
+              requestAnimationFrame(updateValue);
+            }
+          }
+
+          updateValue();
+        }
+      });
+    </script>
+
+    <!-- Função likes L1 - D1-->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const buttonL1 = document.getElementById("l1");
+        const ads2 = document.getElementById("ads2");
+
+        buttonL1.addEventListener("click", function () {
+          ads2.scrollIntoView({ behavior: "smooth" });
+        });
+      });
+    </script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const buttonD1 = document.getElementById("d1");
+        const scroll2 = document.getElementById("scroll2");
+
+        buttonD1.addEventListener("click", function () {
+          scroll2.scrollIntoView({ behavior: "smooth" });
+        });
+      });
+    </script>
+
+    <!-- Função likes L2 - D2-->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const buttonL2 = document.getElementById("l2");
+        const ads3 = document.getElementById("ads3");
+
+        buttonL2.addEventListener("click", function () {
+          ads3.scrollIntoView({ behavior: "smooth" });
+        });
+      });
+    </script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const buttonD2 = document.getElementById("d2");
+        const ads3 = document.getElementById("ads3");
+
+        buttonD2.addEventListener("click", function () {
+          ads3.scrollIntoView({ behavior: "smooth" });
+        });
+      });
+    </script>
+
+    <!-- Função likes L3 - D3 -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const buttonL3 = document.getElementById("l3");
+        const boxAviso = document.querySelector(".aviso");
+
+        buttonL3.addEventListener("click", function () {
+          scrollToElement(boxAviso);
+        });
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const buttonD3 = document.getElementById("d3");
+        const boxAviso = document.querySelector(".aviso");
+
+        buttonD3.addEventListener("click", function (event) {
+          event.preventDefault();
+          scrollToElement(boxAviso);
+        });
+      });
+    </script>
+    <script>
+      function scrollToElement(element) {
+        const elementTop = element.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight;
+        const scrollToPosition =
+          elementTop - windowHeight / 2 + element.clientHeight / 2;
+
+        window.scrollTo({
+          top: scrollToPosition,
+          behavior: "smooth",
+        });
+      }
+    </script>
+
+    <!-- Função de aumentar saldo - likes  -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const likeButtons = document.querySelectorAll(".btn-like");
+        const dislikeButtons = document.querySelectorAll(".btn-dislike");
+
+        likeButtons.forEach(function (likeButton) {
+          likeButton.addEventListener("click", function (event) {
+            event.preventDefault();
+            if (!likeButton.classList.contains("not")) {
+              updateBalance(18.96);
+              showNotification("Thank you for participating! You won $18.96!");
+              saleSound.play();
+            }
+          });
+        });
+
+        dislikeButtons.forEach(function (dislikeButton) {
+          dislikeButton.addEventListener("click", function () {
+            if (!dislikeButton.classList.contains("not")) {
+              showNotification("Thank you for participating! You won $16.49!");
+              updateBalance(20);
+              saleSound.play();
+            }
+          });
+        });
+
+        function updateBalance(amount) {
+          const balanceElement = document.querySelector(".boxsaldo b");
+          const balanceText = balanceElement.textContent;
+          const currentBalance = parseFloat(balanceText.replace("$", ""));
+          const maxAllowedBalance = 69.27;
+          const newBalance = currentBalance + amount;
+
+          if (newBalance > maxAllowedBalance) {
+            animateValue(
+              balanceElement,
+              currentBalance,
+              maxAllowedBalance,
+              1000
+            );
+          } else {
+            animateValue(balanceElement, currentBalance, newBalance, 1000);
+          }
+        }
+
+        function animateValue(element, start, end, duration) {
+          const range = end - start;
+          const startTime = new Date().getTime();
+          const endTime = startTime + duration;
+
+          function updateValue() {
+            const currentTime = new Date().getTime();
+            const elapsed = currentTime - startTime;
+            const progress = Math.min(elapsed / duration, 1);
+            const newValue = start + range * progress;
+            element.textContent = "$" + newValue.toFixed(2);
+
+            if (progress < 1) {
+              requestAnimationFrame(updateValue);
+            }
+          }
+
+          updateValue();
+        }
+      });
+    </script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const likeButton = document.getElementById("l1");
+        const dislikeButton = document.getElementById("d1");
+
+        likeButton.addEventListener("click", function () {
+          addNotClass();
+          // Restante do seu código para o botão de like
+        });
+
+        dislikeButton.addEventListener("click", function () {
+          addNotClass();
+          // Restante do seu código para o botão de dislike
+        });
+
+        function addNotClass() {
+          likeButton.classList.add("not");
+          dislikeButton.classList.add("not");
+        }
+
+        // Restante do seu código aqui
+      });
+    </script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const buttonL3 = document.getElementById("l3");
+        const buttonD3 = document.getElementById("d3");
+        const sectionContent = document.querySelector(".content");
+        const divContentW1 = document.querySelector(".content-w1");
+        const divContentW2 = document.querySelector(".content-w2");
+        const balanceValueElement = document.getElementById("balance-value");
+
+        divContentW2.style.display = "none";
+
+        buttonL3.addEventListener("click", function () {
+          hideAndShowContent();
+          updateValue();
+        });
+
+        buttonD3.addEventListener("click", function () {
+          hideAndShowContent();
+          updateValue();
+        });
+
+        function hideAndShowContent() {
+          sectionContent.style.display = "none";
+          divContentW1.style.display = "none";
+          divContentW2.style.display = "flex";
+        }
+
+        function updateValue() {
+          const targetValue = 69.27;
+          const currentValue = parseFloat(
+            balanceValueElement.textContent.replace("$", "")
+          );
+          const duration = 1000;
+
+          animateValue(
+            balanceValueElement,
+            currentValue,
+            targetValue,
+            duration
+          );
+        }
+
+        function animateValue(element, start, end, duration) {
+          const range = end - start;
+          const startTime = new Date().getTime();
+          const endTime = startTime + duration;
+
+          function updateValue() {
+            const currentTime = new Date().getTime();
+            const elapsed = currentTime - startTime;
+            const progress = Math.min(elapsed / duration, 1);
+            const newValue = start + range * progress;
+            element.textContent = "$" + newValue.toFixed(2);
+
+            if (progress < 1) {
+              requestAnimationFrame(updateValue);
+            }
+          }
+
+          updateValue();
+        }
+      });
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const buttonD3 = document.getElementById("d3");
+        const buttonL3 = document.getElementById("l3");
+        const balanceValueElement = document.getElementById("balance-value");
+        const boxSaldoElement = document.querySelector(".boxsaldo");
+
+        function updateFontSize() {
+          // Adiciona um delay de 300 milissegundos antes de atualizar para 70px
+          setTimeout(function () {
+            // Adiciona uma transição suave para o font-size 70px
+            balanceValueElement.style.transition =
+              "font-size 0.2s cubic-bezier(0.3, -0.01, 0, 1) 0s";
+            balanceValueElement.style.fontSize = "40px";
+
+            // Adiciona a classe "d-none" ao elemento com a classe "boxsaldo"
+            boxSaldoElement.classList.add("d-none");
+
+            // Adiciona um delay de 300 milissegundos antes de atualizar para 50px
+            setTimeout(function () {
+              // Atualiza o font-size para 50px com uma transição suave
+              balanceValueElement.style.fontSize = "40px";
+            }, 1050); // 300 milissegundos = 0.3 segundos
+          }, 10); // 300 milissegundos = 0.3 segundos
+        }
+
+        buttonD3.addEventListener("click", updateFontSize);
+        buttonL3.addEventListener("click", updateFontSize);
+      });
+
+      // Notificações JS
+      // Após exibir a notificação
+      const saleSound = document.querySelector("#salesound");
+
+      function showNotification(message) {
+        const notification = document.createElement("div");
+        notification.className = "notification";
+
+        const checkIcon = document.getElementById("checkIcon").cloneNode(true);
+        checkIcon.style.display = "block";
+        notification.appendChild(checkIcon);
+
+        const text = document.createElement("div");
+        text.className = "notification-message";
+        text.textContent = message;
+        notification.appendChild(text);
+
+        const notifications = document.querySelectorAll(".notification");
+        notifications.forEach((n) => {
+          n.style.transition = "transform 1s cubic-bezier(0.21, 1.02, 0.73, 1)";
+        });
+
+        let verticalOffset = 0;
+        notifications.forEach((n) => {
+          n.style.transform = `translate3d(0, ${verticalOffset}px, 0)`;
+          verticalOffset += n.offsetHeight + 8;
+        });
+
+        const container = document.getElementById("notificationContainer");
+        container.insertBefore(notification, container.firstChild);
+
+        notification.style.transform = `translate3d(0, ${verticalOffset}px, 0)`;
+        notification.style.animation =
+          "slideIn 0.35s cubic-bezier(0.21, 1.02, 0.73, 1) 0s 1 normal forwards";
+
+        notification.addEventListener("click", () => {
+          notification.style.animation =
+            "slideOut 0.5s cubic-bezier(0.15, 0.69, 0.33, 1.75) 0s 1 normal forwards";
+
+          notification.addEventListener("animationend", () => {
+            notification.remove();
+          });
+        });
+
+        setTimeout(() => {
+          notification.style.animation =
+            "slideOut 0.5s cubic-bezier(0.15, 0.69, 0.33, 1.75) 0s 1 normal forwards";
+
+          notification.addEventListener("animationend", () => {
+            notification.remove();
+          });
+        }, 1000);
+
+        setTimeout(() => {
+          checkIcon.style.transform = "scale(1)";
+        }, 10);
+      }
+    </script>
+  </body>
+</html>
