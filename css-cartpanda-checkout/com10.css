@@ -777,8 +777,7 @@ input[type=checkbox].checkbox:checked::after {
     position: absolute
 }
 .payment-method .panel-default:nth-child(1) .panel-title::after {
-  content: var(--tag_card);
-  background: var(--tag_card_bg)
+display: none!important;
   }
 .payment-method .panel-default:nth-child(2) .panel-title::after {
   content: var(--tag_pix);
