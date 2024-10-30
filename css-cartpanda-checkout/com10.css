@@ -253,10 +253,11 @@ html body.template-checkout .row.check-out-row-outr:has(.inner-checkout-left-thr
 
 /* --> Faixa promocional <-- */
 .wrapper::before {
+    display:none!important;
     content: var(--bar_promo);
     background: var(--bar_promo_bg);
     background-size: var(--bar_promo_bg_size);
-    display: flex;
+/*     display: flex; */
     max-width: var(--bar_promo_wd);
     min-height: 35px;
     font-size: var(--bar_promo_txt_size);
