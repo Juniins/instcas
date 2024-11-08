@@ -401,12 +401,12 @@ body.template-checkout .check-out-left {
     font-weight: 700;
     color: var(--wart-geral-color);
     text-transform: uppercase;
-} */
-/* .timer-section_timer div[data-realtime*="mobile_hide_timer"] {
+}
+.timer-section_timer div[data-realtime*="mobile_hide_timer"] {
     background: none !important;
     padding: 20px 0;
-} */
-/* #timer-product ul {
+}
+#timer-product ul {
     background: none !important;
     color: var(--wart-geral-color) !important;
     border: 5px solid var(--wart-geral-color) !important;
@@ -480,7 +480,7 @@ body.template-checkout .check-out-right {
     background: var(--wart-geral-color) !important;
     color: var(--wart-color) !important;
 }
-/* [data-realtime="checkout_personal_information.headline"]:after {
+[data-realtime="checkout_personal_information.headline"]:after {
     content: '';
     background: var(--wart-geral-color);
     -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 1000'%3E%3Cpath fill='currentColor' d='M858.5 763.6a374 374 0 0 0-80.6-119.5a375.63 375.63 0 0 0-119.5-80.6c-.4-.2-.8-.3-1.2-.5C719.5 518 760 444.7 760 362c0-137-111-248-248-248S264 225 264 362c0 82.7 40.5 156 102.8 201.1c-.4.2-.8.3-1.2.5c-44.8 18.9-85 46-119.5 80.6a375.63 375.63 0 0 0-80.6 119.5A371.7 371.7 0 0 0 136 901.8a8 8 0 0 0 8 8.2h60c4.4 0 7.9-3.5 8-7.8c2-77.2 33-149.5 87.8-204.3c56.7-56.7 132-87.9 212.2-87.9s155.5 31.2 212.2 87.9C779 752.7 810 825 812 902.2c.1 4.4 3.6 7.8 8 7.8h60a8 8 0 0 0 8-8.2c-1-47.8-10.9-94.3-29.5-138.2zM512 534c-45.9 0-89.1-17.9-121.6-50.4S340 407.9 340 362c0-45.9 17.9-89.1 50.4-121.6S466.1 190 512 190s89.1 17.9 121.6 50.4S684 316.1 684 362c0 45.9-17.9 89.1-50.4 121.6S557.9 534 512 534z'/%3E%3C/svg%3E%0A");
@@ -494,9 +494,9 @@ body.template-checkout .check-out-right {
     margin: 0 10px 0 0;
     top: 0;
     float: left;      
-} */
+}
 
-/* [data-realtime="checkout_shipping_information.headline"]:after {
+[timer="checkout_shipping_information.headline"]:after {
     content: '';
     background: var(--wart-geral-color);
     -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='currentColor' d='M4 16h12v2H4zm-2-5h10v2H2z'/%3E%3Cpath fill='currentColor' d='m29.919 16.606l-3-7A.999.999 0 0 0 26 9h-3V7a1 1 0 0 0-1-1H6v2h15v12.556A3.992 3.992 0 0 0 19.142 23h-6.284a4 4 0 1 0 0 2h6.284a3.98 3.98 0 0 0 7.716 0H29a1 1 0 0 0 1-1v-7a.997.997 0 0 0-.081-.394ZM9 26a2 2 0 1 1 2-2a2.002 2.002 0 0 1-2 2Zm14-15h2.34l2.144 5H23Zm0 15a2 2 0 1 1 2-2a2.002 2.002 0 0 1-2 2Zm5-3h-1.142A3.995 3.995 0 0 0 23 20v-2h5Z'/%3E%3C/svg%3E%0A");
@@ -510,7 +510,7 @@ body.template-checkout .check-out-right {
     margin: 0 10px 0 0;
     top: 0;
     float: left; 
-} */
+}
 
 .section-shipping-method legend.checkout-titles:before {
     content: '';
@@ -528,7 +528,7 @@ body.template-checkout .check-out-right {
     float: left;
 }
 
-/* [data-realtime="checkout_payment_method.headline"]:after {
+[data-realtime="checkout_payment_method.headline"]:after {
     content: '';
     background: var(--wart-geral-color);
     -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='currentColor' d='M10.5 10a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2ZM1 5.5A2.5 2.5 0 0 1 3.5 3h9A2.5 2.5 0 0 1 15 5.5v5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 10.5v-5ZM14 6v-.5A1.5 1.5 0 0 0 12.5 4h-9A1.5 1.5 0 0 0 2 5.5V6h12ZM2 7v3.5A1.5 1.5 0 0 0 3.5 12h9a1.5 1.5 0 0 0 1.5-1.5V7H2Z'/%3E%3C/svg%3E%0A");
@@ -542,9 +542,9 @@ body.template-checkout .check-out-right {
     margin: 0 10px 0 0;
     top: 0;
     float: left; 
-} */
+}
 
-/* [data-realtime*="desktop_hide_custom_note"] [data-realtime*="title_text"]:after {
+[data-realtime*="desktop_hide_custom_note"] [data-realtime*="title_text"]:after {
     content: '';
     background: var(--wart-geral-color);
     -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='currentColor' d='M17.75 3A3.25 3.25 0 0 1 21 6.25v6.879a2.25 2.25 0 0 1-.659 1.59l-5.621 5.622a2.25 2.25 0 0 1-1.591.659H6.25A3.25 3.25 0 0 1 3 17.75V6.25A3.25 3.25 0 0 1 6.25 3h11.5Zm0 1.5H6.25A1.75 1.75 0 0 0 4.5 6.25v11.5c0 .966.784 1.75 1.75 1.75H13v-3.25a3.25 3.25 0 0 1 3.066-3.245L16.25 13h3.25V6.25a1.75 1.75 0 0 0-1.75-1.75Zm.689 10H16.25a1.75 1.75 0 0 0-1.744 1.607l-.006.143v2.189l3.939-3.939Z'/%3E%3C/svg%3E%0A");
@@ -559,7 +559,7 @@ body.template-checkout .check-out-right {
     top: 0;
     float: left; 
 }
- */
+
 body .checkout-title-inner, legend.checkout-titles {
     font-weight: 500;
     text-transform: lowercase;
