@@ -386,7 +386,7 @@ body.template-checkout .check-out-left {
 .motivator-inner span {width:100%}
 }
 /* --> Temporizador <-- */
-.timer-section_timer {
+/* .timer-section_timer {
     position: relative;
     border: 5px solid var(--wart-geral-color);
     border-radius: var(--rb);
@@ -401,12 +401,12 @@ body.template-checkout .check-out-left {
     font-weight: 700;
     color: var(--wart-geral-color);
     text-transform: uppercase;
-}
+} */
 /* .timer-section_timer div[data-realtime*="mobile_hide_timer"] {
     background: none !important;
     padding: 20px 0;
 } */
-#timer-product ul {
+/* #timer-product ul {
     background: none !important;
     color: var(--wart-geral-color) !important;
     border: 5px solid var(--wart-geral-color) !important;
@@ -428,7 +428,7 @@ html body.template-checkout .check-out-left, html body.template-checkout .check-
 .timer-section_timer {
     margin: 0px 15px !important;
 }
-}
+} */
 
 /* ---- Lado direito ---- */
 body.template-checkout .checkout-cont:not(.fixed_container) .check-out-right, .inner-checkout-right-three-step.right-side-three {
