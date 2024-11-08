@@ -10,6 +10,11 @@
 }
  */
 
+/* Ocultar texto do rodapé */
+.bottom-form-content {
+    display: none!important;
+}
+
 /* Ocultar seletor de quantidade */
 @media screen and (max-width: 1024px) {
     .prdcts_list .checkout-product-row .prdct-qty .incremental-btn-wrap {
