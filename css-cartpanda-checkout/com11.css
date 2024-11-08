@@ -402,10 +402,10 @@ body.template-checkout .check-out-left {
     color: var(--wart-geral-color);
     text-transform: uppercase;
 }
-.timer-section_timer div[data-realtime*="mobile_hide_timer"] {
+/* .timer-section_timer div[data-realtime*="mobile_hide_timer"] {
     background: none !important;
     padding: 20px 0;
-}
+} */
 #timer-product ul {
     background: none !important;
     color: var(--wart-geral-color) !important;
@@ -525,6 +525,7 @@ body.template-checkout .check-out-right {
     top: 0;
     float: left;
 }
+
 [data-realtime="checkout_payment_method.headline"]:after {
     content: '';
     background: var(--wart-geral-color);
@@ -555,6 +556,7 @@ body.template-checkout .check-out-right {
     top: 0;
     float: left; 
 }
+
 body .checkout-title-inner, legend.checkout-titles {
     font-weight: 500;
     text-transform: lowercase;
