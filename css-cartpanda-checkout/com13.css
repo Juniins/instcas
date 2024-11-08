@@ -427,8 +427,8 @@ html body.template-checkout .check-out-left, html body.template-checkout .check-
 }
 .timer-section_timer {
     margin: 0px 15px !important;
-}
 } */
+    
 
 /* ---- Lado direito ---- */
 body.template-checkout .checkout-cont:not(.fixed_container) .check-out-right, .inner-checkout-right-three-step.right-side-three {
