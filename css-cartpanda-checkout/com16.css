@@ -388,29 +388,29 @@ body.template-checkout .check-out-left {
 /* --> Temporizador <-- */
 .timer-section_timer {
     position: relative;
-    border: 5px solid var(--wart-geral-color);
-    border-radius: var(--rb);
+/*     border: 5px solid var(--wart-geral-color);
+    border-radius: var(--rb); */
     box-shadow: black 0px 0px 8px -6px;
     margin: 0px !important;
     padding: 0 !important;
 }
 .timer-section_timer div {
-    background: none !important;
+/*     background: none !important; */
 }
 .timer-section_timer p {
     font-weight: 700;
-    color: var(--wart-geral-color);
+/*     color: var(--wart-geral-color); */
     text-transform: uppercase;
 }
-/* .timer-section_timer div[data-realtime*="mobile_hide_timer"] {
-    background: none !important;
+.timer-section_timer div[data-realtime*="mobile_hide_timer"] {
+/*     background: none !important; */
     padding: 20px 0;
-} */
+}
 #timer-product ul {
-    background: none !important;
-    color: var(--wart-geral-color) !important;
-    border: 5px solid var(--wart-geral-color) !important;
-    border-radius: var(--rb) !important;
+/*     background: none !important; */
+/*     color: var(--wart-geral-color) !important; */
+/*     border: 5px solid var(--wart-geral-color) !important; */
+/*     border-radius: var(--rb) !important; */
 }
 @media (max-width:768px) {
 html body.template-checkout .checkout-cont:not(.fixed_container) .check-out-left, html body.template-checkout .checkout-cont:not(.fixed_container) .check-out-right {
