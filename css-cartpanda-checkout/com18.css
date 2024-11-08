@@ -390,12 +390,12 @@ body.template-checkout .check-out-left {
     position: relative;
 /*     border: 5px solid var(--wart-geral-color);
     border-radius: var(--rb); */
-    box-shadow: black 0px 0px 8px -6px;
+/*     box-shadow: black 0px 0px 8px -6px; */
     margin: 0px !important;
     padding: 0 !important;
 }
 .timer-section_timer div {
-/*     background: none !important; */
+    background: none !important;
 }
 .timer-section_timer p {
     font-weight: 700;
@@ -403,11 +403,11 @@ body.template-checkout .check-out-left {
     text-transform: uppercase;
 }
 .timer-section_timer div[data-realtime*="mobile_hide_timer"] {
-/*     background: none !important; */
+    background: none !important;
     padding: 20px 0;
 }
 #timer-product ul {
-/*     background: none !important; */
+    background: none !important;
 /*     color: var(--wart-geral-color) !important; */
 /*     border: 5px solid var(--wart-geral-color) !important; */
 /*     border-radius: var(--rb) !important; */
