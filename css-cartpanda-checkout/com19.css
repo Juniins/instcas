@@ -750,7 +750,7 @@ input[type=checkbox].checkbox:checked::after {
     align-items: center;
 }
 [id*="order-bump-blocker"]:after {
-    content: 'PRODUCT ADDED';
+    content: 'ADDED TO YOUR ORDER! 🎉';
     position: relative;
     display: inline-block;
     width: 0;
